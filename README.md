@@ -627,6 +627,10 @@ config.middleware.use(Rack::Tracker) do
 end
 ```
 
+Other options:
+
+* `user_id` - This value will be used as the user identity
+
 ### Custom Handlers
 
 Tough we give you handlers for a few tracking services right out of the box, you might
